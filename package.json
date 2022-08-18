@@ -1,5 +1,5 @@
 {
-  "name": "@line/bot-sdk",
+  "name": "@mico-cloud/line-bot",
   "version": "7.5.0",
   "description": "Node.js SDK for LINE Messaging API",
   "engines": {
@@ -25,10 +25,6 @@
     "docs:deploy": "./scripts/deploy-docs.sh",
     "generate-changelog": "ts-node ./scripts/generate-changelog.ts",
     "release": "npm run build && npm publish --access public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:line/line-bot-sdk-nodejs.git"
   },
   "keywords": [
     "node",
